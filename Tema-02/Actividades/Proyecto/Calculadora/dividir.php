@@ -1,3 +1,22 @@
+<<<<<<< HEAD:tema-02/actividades/Proyecto/Calculadora/dividir.php
+<?php
+include '../../../Recursos/plantillas/index.html';
+
+        $valor1 = $_POST['valor1'];
+        $valor2 = $_POST['valor2'];
+
+        if ($valor2 == 0) {
+            echo "<p><strong>Valor 1:</strong> $valor1</p>";
+            echo "<p><strong>Valor 2:</strong> $valor2</p>";
+            echo "<h4 class='mt-3 text-danger'>Error: No se puede dividir entre cero.</h4>";
+        } else {
+            $resultado = $valor1 / $valor2;
+            echo "<p><strong>Valor 1:</strong> $valor1</p>";
+            echo "<p><strong>Valor 2:</strong> $valor2</p>";
+            echo "<h4 class='mt-3'>Resultado: <span class='text-success'>$resultado</span></h4>";
+        }
+        ?>
+=======
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -34,3 +53,4 @@
 
 </body>
 </html>
+>>>>>>> 27233006adfc85fbf5daad1dfd88613591e7a040:Tema-02/Actividades/Proyecto/Calculadora/dividir.php

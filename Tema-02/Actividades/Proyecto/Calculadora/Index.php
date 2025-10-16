@@ -1,3 +1,8 @@
+<<<<<<< HEAD:tema-02/actividades/Proyecto/Calculadora/Index.php
+<?php
+include '../../../Recursos/plantillas/index.html';
+?>
+=======
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -45,3 +50,4 @@
 
 </body>
 </html>
+>>>>>>> 27233006adfc85fbf5daad1dfd88613591e7a040:Tema-02/Actividades/Proyecto/Calculadora/Index.php
